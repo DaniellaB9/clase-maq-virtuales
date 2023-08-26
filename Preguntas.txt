@@ -1,0 +1,19 @@
+Respondiendo las preguntas:
+1.¿Por que un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos y otros no?
+        - Para poder usar un lenguaje de programacion en algun SO depende de factores como la arquitectura del lenguaje,
+        el compilador o interprete que desee usarse (si no esta presente o no es compatible con tu SO no podras usar tu lenguaje
+        de programacion, el acceso a dependencias de bibliotecas y APIs, restricciones del propio SO, entre otros.
+
+2.¿Que tipo de maquina virtual soporta Virtualbox?
+        - Los SO que se pueden emular son: Windows (3.x, 95, 98, ME, NT 4.0, 2000, XP, Server 2003, Vista), 
+        Linux (2.2, 2.4 y 2.6), OS/2, NetBSD, FreeBSD, OpenBSD, Netware, Solaris y L4.
+
+3. ¿Que funcion cumple el hypervisor en la virtualizacion?
+        - Un hypervisor permite que un ordenador host preste soporte a varias maquinas virtuales invitadas 
+        mediante el uso compartido virtual de sus recursos, como la memoria y el procesamiento.
+
+4. ¿ Si tengo mas de una maquina vitual instalada y una se rompe, esto afecta a las demas? por que?
+        - No deberia afectar a las demas. Las maquinas virtuales estan desarrolladas para ser independientes y aisladas entre si.
+        Salvo tengan recursos compartidos entre ellas o por algun error del hypervisor, no deberia haber problema entre ellas en caso
+        alguna no funcione. 
+
